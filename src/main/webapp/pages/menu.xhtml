@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<body>
+	<h:form id="formMenu">
+
+		<p:menubar styleClass="menuBar">
+			<p:submenu label="Cadastramento" icon="ui-icon-document" styleClass="itemMenu">
+			
+				<p:submenu label="Cadastro Salas">
+					<p:menuitem value="Incluir"  icon="ui-icon-document" ajax="false"/>
+					<p:menuitem value="Consultar e Manter" url="#" icon="ui-icon-search"/>
+				</p:submenu>
+			
+				<p:separator />
+				<p:submenu label="Cadastro Notas" >
+					<p:menuitem value="Incluir" url="#" icon="ui-icon-document" />
+					<p:menuitem value="Consultar e Manter" url="#" icon="ui-icon-search"/>
+				</p:submenu>
+				
+			</p:submenu>
+
+			<p:submenu label="Relatório" styleClass="itemMenu">
+				<p:submenu label="Relatório">
+					<p:menuitem value="Consolidado" url="#" icon="ui-icon-search"/>
+				</p:submenu>
+			</p:submenu>
+			
+		</p:menubar>
+
+			
+
+	</h:form>
+
+</body>
+</html>

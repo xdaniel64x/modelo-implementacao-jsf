@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head></h:head> 
+<h:body> 
+	<h:form>
+	<h2>usuario</h2>
+	<p:inputText size="30" value="#{controlerFormulario.login.usuario}"></p:inputText>
+	<h2>senha</h2>
+	<p:inputText size="30" value="#{controlerFormulario.login.senha}"></p:inputText>
+	
+	<p:commandButton action="#{controlerFormulario.navegar}"></p:commandButton> 
+	</h:form>
+
+</h:body>
+</html>

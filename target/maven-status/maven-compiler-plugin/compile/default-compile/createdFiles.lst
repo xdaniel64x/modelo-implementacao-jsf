@@ -1,0 +1,5 @@
+br\com\model\Login.class
+br\com\bean\AbstractBackingBean.class
+br\com\utils\ManageBeansUtils.class
+br\com\controler\ControlerFormulario.class
+br\com\controler\ControlerShow.class

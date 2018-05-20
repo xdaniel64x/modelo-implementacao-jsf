@@ -1,0 +1,362 @@
+
+<!--
+<!
+DOCTYPE HTML PUBLIC &quot ;-//W3C//DTD HTML 4.0 //EN&quot;>
+
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   
+}
+
+
+
+
+.bodyModal {
+	margin: opx;
+}
+
+
+.ui-button-text-only .ui-button-text {
+  padding: .3em 1em;
+}
+.ui-button .ui-button-text {
+  display: block;
+  line-height: 1.4;
+}
+
+
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    overflow: auto;
+    zoom: 1;
+}
+
+.ui-widget .ui-widget {
+  /* font-size: 1em; */
+}
+
+
+.ui-widget-content {
+    border: hidden !important;
+    background: #ffffff;
+    color: #4f4f4f;
+}
+
+.ui-layout-center {  
+    z-index: 30 !important;  
+    overflow: visible !important; 
+    border: 0px; 
+} 
+
+
+.ui-layout-south {  
+    z-index: 30 !important;  
+    overflow: visible !important;  
+    position: absolute !important; 
+    bottom: 0 !important; 
+}  
+  
+.ui-layout-south .ui-layout-unit-content {  
+    overflow: visible !important;  
+} 
+
+.table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-color: grey;
+}
+
+
+.ui-fileupload-buttonbar {
+	background-color: white;
+	border: 0;
+}
+
+
+#divPrincipal {
+	min-height:100%;
+    position:relative;
+    padding: 0;
+	/*	border: 1px solid;*/
+	/*	border-color:green;*/
+}
+
+#divDataList {
+	border: hidden !important;
+	background-color: red;
+}
+
+.gridTitulo {
+	width: 100%;
+	padding-left: 1%;
+	padding-top: 1%;
+}
+.gridCaminhoPao {
+	width: 100%;
+	padding-left: 1%;
+	margin-bottom: 0px;
+}
+
+
+
+.gridSecundaria {
+	spacing-before:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.gridBotao {
+	spacing-before:0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.gridBotaoModal {
+	spacing-before:50%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.gridLinha {
+	spacing-before:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.gridBotaoDireito {
+	spacing-before:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: right;
+}
+
+.gridBotaoCentro {
+	spacing-before:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: center !important;
+}
+
+.gridBotaoEsquerdo {
+	spacing-before:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+
+.gridPrimaria {
+	padding-left: 5px;
+	margin-left: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.gridRodape {
+		width: 100%;
+		background: #c4c4c4
+		-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255,
+		0.8)), to(rgba(255, 255, 255, 0)));
+}
+
+
+#divContent {
+	padding-bottom: 45px;
+}
+
+.divTudo {
+	padding-bottom: 30px;
+	margin-top: 10px;
+}
+
+.itemMenu {
+	font-family: verdana !important; 
+	font-size: 16px !important;
+}
+
+.divTituloIndex {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 300px;
+	height: 140px;
+	margin-botton: 30px;
+}
+
+.fontLabelBold {
+	font-family: verdana !important; 
+	font-size: 10px !important; 
+	font-weight:bold !important; 
+}
+
+.fontLabelModalBold {
+	font-family: verdana !important; 
+	font-size: 12px !important; 
+	font-weight:bold !important; 
+}
+
+.fontLabelHeaderModalBold{
+	font-family: verdana !important; 
+	font-size: 16px !important; 
+	font-weight:bold !important; 
+}
+
+.inputText {
+	height: 16px !important; 
+	font-family: verdana !important; 
+	font-size: 12px !important; 
+	background-color: white !important;
+	
+}
+
+.inputTextValor {
+	height: 16px !important; 
+	font-family: verdana !important; 
+	font-size: 12px !important; 
+	text-align: right !important; 
+	background-color: white !important;
+}
+
+.comboBox {
+	font-family: verdana !important; 
+	font-size: 12px !important; 
+	text-align: left !important; 
+}
+
+
+
+.pButton {
+	font-family: verdana;
+	font-style: bold;
+	font-size: 12px; ]
+	margin-left: 30px;
+}
+
+.pButtonUploadFile {
+	font-family: verdana;
+	font-style: bold;
+	font-size: 12px; ]
+	margin-left: 30px;
+}
+
+
+
+.divIndexLayout {
+	position: center;
+	margin-right: 2px;
+	margin-left: 2px;
+	widht: 100%;
+	height: 100%;
+}
+
+.fontLabel {
+	font-family: verdana;
+	font-size: 14px;
+}
+
+
+.fontLabelFooter {
+	font-family: verdana !important; 
+	font-size: 12px !important; 
+	vertical-align: middle !important; 
+}
+
+.fontLabelTitle {
+	font-family: verdana !important; 
+	font-size: 18px !important; 
+	font-weight:bold !important; 
+}
+
+.calendar {
+	height: 16px !important; 
+	font-family: verdana !important; 
+	font-size: 12px !important; 
+	background-color: white !important;
+}
+
+.fontLabelIndex {
+	font-family: verdana;
+	font-size: 14px;
+}
+
+.menuBar {
+	 border: 1px solid #a8a8a8 !important;
+	  background: #c4c4c4
+		-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255,
+		0.8)), to(rgba(255, 255, 255, 0))) !important;
+	
+}
+
+.breadCrumb {
+	background-color: white;
+	font-family: verdana;
+	font-size: 10px !important; 
+	font-style: normal;
+	border:0;
+	margin-bottom: 0;
+	height: 10px;
+	
+}
+
+#divFooter {
+	position:absolute;
+ 	bottom:0;
+  	width:100%;
+	background: #c4c4c4
+		-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255,
+		0.8)), to(rgba(255, 255, 255, 0)));
+	height: 30px;
+	text-align: center;
+	
+}
+
+.gridFooter {
+	background: #c4c4c4
+		-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255,
+		0.8)), to(rgba(255, 255, 255, 0)));
+	height: 28px;
+	text-align: center;
+	
+}
+
+.layoutFooter {
+	border: 0px;
+}
+
+
+#divMenu{
+	
+}
+
+#divTitle{
+	
+}
+
+.dataListModalErro{
+    border: 1px #a8a8a8 !important;
+}
+
+.botao {
+	font-size: 12px !important;
+	margin-left: 5px;
+}
+
+.botaoOkModal {
+	font-size: 12px !important;
+	text-align: center;
+}
+
+.botaoSair {
+	font-family: sans-serif;
+	background-color: #BAEAD6;
+}
